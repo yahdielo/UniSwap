@@ -3,7 +3,7 @@
 this repo will hold the basic logic on how to create a smart contract to interact with uni swap and perform swaps of ERC-20
 tokens.
 
-* todo: create POOL contractß
+* todo: create POOL contract
 
 ## SwapTokenContract
 
