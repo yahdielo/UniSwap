@@ -22,10 +22,11 @@ more info in the token contract README directory
 ## compile and deploy
 To compile the solidity contract run :
 
-npx hardhat compile
+ npx hardhat compile
+
 to depploy the contract to the goerli testnet:
 
-npx hardhat run scripts/deploy.js --network goerli
+ npx hardhat run scripts/deploy.js --network goerli
 
 * todo: create POOL contract
 
@@ -43,8 +44,8 @@ if you are cloning this repo make sure to run:
 
     npm install @uniswap/v3-core
 
-you might have problem at the compilation where it doesnt recognize some dependencies, in that case delet the package.json, package-loch.json and last node_modules, ones you deleted them install all the dependencies again. and you mmight have to do that one or two times.
+you might have a problem at the compilation where it doesn't recognize some dependencies, in that case delet the package.json, package-loch.json and last node_modules, ones you deleted them install all the dependencies again. and you might have to do that one or two times.
 
-when you are executing the contract fucntions make sure is loaded with some tokens to perform the swaps.
+when you are executing the contract functions make sure is loaded with some tokens to perform the swaps.
 
-currently the executesingleswap is hardcoded to swap some link tokens for WETH , the parameter amount is how much link you want to swap for weth, Note to self, make this a dinamic fucntion, to pass the desire token we want to swap and the amount as arguments
+currently, the executesingleswap is hardcoded to swap some link tokens for WETH , the parameter amount is how much link you want to swap for weth, Note to self, make this a dinamic fucntion, to pass the desire token we want to swap and the amount as arguments
