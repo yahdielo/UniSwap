@@ -1,12 +1,10 @@
 # Uniswap
 
-Uniswap is a decentralized exchange on the Ethereum network, with a revolutionary change un like traditional finance uniswap uses AMM (automatic market maker) for the token trading pairs, basically, liquidity is divided in two  pools for example, DAI/WETH you will have one pool containing weth and the other pool holding DAI tokens.
+Uniswap is a decentralized exchange on the Ethereum network, with a revolutionary changes, un like traditional finance uniswap uses AMM (automatic market maker) for the token trading pairs, basically, liquidity is divided in too  pools for example, DAI/WETH you will have one pool containing weth and the other pool holding DAI.
 
 As AMM's prices are related to the pools fluctuations, if you want some dai you deposit some WETh, and Dai becomes more scarce and so it becomes more expensive, and this also opens opportunities for arbitrage, because pools prices are a contract product of the pool balances. so prices might change from DEX to DEX
 
-In the  SWAPTOKEN repo contains a smart contract that can swap tokens assuming the tokens are in possession of the smart contract, and not on a external wallet.
-
-Also all contracts will be interacting directly with the uniswap v3-core smart contracts, wish we can find at this address: 0x8eB105CFc7ec7ebF126586689683a9104E6ec91b.
+contracts will be interacting directly with the uniswap v3-core smart contracts, wish we can find at this address: 0x8eB105CFc7ec7ebF126586689683a9104E6ec91b.
 
 The reason for this is that we want to be testing and developinf using the same exact contracts bytecode deploy by unilabs to the mainnet.
 
